@@ -1,0 +1,9 @@
+[core]
+	excludesfile = ~/.gitignore_global
+	autocrlf = input
+	trustctime = false
+
+[include]
+	path = ~/.git-profiles/gitconfig-work.conf
+[includeIf "gitdir:~/private/"]
+	path = ~/.git-profiles/gitconfig-private.conf
