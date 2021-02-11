@@ -1,0 +1,10 @@
+# General
+.DS_Store
+
+# Jetbrains IDE
+.idea/
+*.iml
+
+#  Visual Studio Code
+*.code-workspace
+*.vscode
