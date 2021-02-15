@@ -10,13 +10,21 @@ dotfiles/
 │  ├─ .gitignore
 ├─ scripts/
 │  ├─ git-clean-branches.sh
-├─ zsh/
-│  ├─ .zshalias
-│  ├─ .zshrc
+├─ .zshalias
+├─ .zshrc
 ├─ README.md
 ```
 
-Sources:
+## zsh
+Uses [oh-my-zsh](https://ohmyz.sh/) with the following plugins:
+*  [git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git)
+*  [golang](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/golang)
+*  [kubectl](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/kubectl)
+*  [vscode](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vscode)
+*  zsh-autosuggestions
+
+
+## Sources:
 - Nice tutorial about [dotfiles](https://dotfiles.github.io/)
 - [Getting started with dotfiles](https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789)
 - some repos:

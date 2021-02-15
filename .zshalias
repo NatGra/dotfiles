@@ -1,17 +1,9 @@
-# General
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
-
 # Git
 alias git-cleanup-branches="~/.dotfiles/scripts/git-clean-branches.sh"
 
 # Python
 alias python="/usr/bin/python3"
 alias pip=pip3
-
-# Kubernetes
-alias k=kubectl
 
 # Recursively delete `.DS_Store` files
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
